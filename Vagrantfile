@@ -49,6 +49,7 @@ Vagrant.configure("2") do |config|
       mongodb.vm.provision "shell", path: "env/mongodb/script.sh"
     end
 
+
     
     # Provisioning NodeJS App
     config.vm.define "nodeapp" do |nodeapp|
