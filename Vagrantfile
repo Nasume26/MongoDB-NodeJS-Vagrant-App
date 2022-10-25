@@ -50,7 +50,6 @@ Vagrant.configure("2") do |config|
     end
 
 
-    
     # Provisioning NodeJS App
     config.vm.define "nodeapp" do |nodeapp|
       nodeapp.vm.box = "generic/ubuntu2010"
