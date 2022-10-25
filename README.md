@@ -15,7 +15,7 @@ To start the application on Mac (Intel AMD), Linux, or Windows:
 - Congratulations you have succesfully used the application!
 
 To start the application on an M series Mac: 
-- Comment out the code from Line 40 down, uncomment out the code from lines 1 to 40.
+- In the vagrantfile Comment out the code from Line 40 down, uncomment out the code from lines 1 to 40.
 - Locate the file in terminal.
 - Make sure you are in the directory witht the Vagrant File.
 - Enter the command ` vagrant up `
